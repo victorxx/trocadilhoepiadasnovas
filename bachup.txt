@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><!-- Declaração do idioma da página: português do Brasil -->
+
+<head>
+  <meta charset="UTF-8" /><!-- Define a codificação de caracteres para UTF-8 -->
+
+  <!-- Título da página, exibido na aba do navegador e nos resultados de busca -->
+  <title>Piadas em Trocadilhos - Humor Inteligente e Divertido</title>
+  
+  <!-- Meta descrição: resumo da página para motores de busca -->
+  <meta name="description" content="Confira as melhores piadas em trocadilhos para animar seu dia com humor inteligente e divertido. Ria com jogos de palavras criativos e leves." />
+  
+  <!-- Palavras-chave para SEO (menos relevantes hoje, mas ainda usadas) -->
+  <meta name="keywords" content="piadas, trocadilhos, piadas engraçadas, humor inteligente, piadas de jogo de palavras, piadas divertidas, piadas para rir" />
+  
+  <!-- Instruções para robôs de busca (indexar e seguir links) -->
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Responsividade: ajusta a escala da página para dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Link canônico: evita conteúdo duplicado indicando URL preferida -->
+  <link rel="canonical" href="https://www.exemplo.com/piadas-trocadilhos" />
+  
+  <!-- Meta tags Open Graph para otimizar compartilhamento em redes sociais -->
+  <meta property="og:title" content="Piadas em Trocadilhos - Humor Inteligente e Divertido" />
+  <meta property="og:description" content="Ria com as melhores piadas em trocadilhos! Humor leve, criativo e inteligente para alegrar seu dia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.exemplo.com/piadas-trocadilhos" />
+  <meta property="og:image" content="https://www.exemplo.com/imagens/piadas-trocadilhos.jpg" />
+  
+  <!-- Meta tags para Twitter Cards (formato de compartilhamento no Twitter) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Piadas em Trocadilhos - Humor Inteligente e Divertido" />
+  <meta name="twitter:description" content="Ria com as melhores piadas em trocadilhos! Humor leve, criativo e inteligente para alegrar seu dia." />
+  <meta name="twitter:image" content="https://www.exemplo.com/imagens/piadas-trocadilhos.jpg" />
+  
+  <!-- Dados estruturados em JSON-LD para SEO avançado -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork", <!-- Tipo de conteúdo representado -->
+    "name": "Piadas em Trocadilhos", <!-- Nome do conteúdo -->
+    "description": "Uma coleção de piadas engraçadas baseadas em trocadilhos para diversão e entretenimento.", <!-- Descrição detalhada -->
+    "url": "https://www.exemplo.com/piadas-trocadilhos", <!-- URL da página -->
+    "author": {
+      "@type": "Person",
+      "name": "Seu Nome ou Marca" <!-- Autor da página -->
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seu Site", <!-- Nome da organização que publica -->
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.exemplo.com/imagens/logo.png" <!-- URL do logo -->
+      }
+    }
+  }
+  </script>
+  
+  <!-- Estilos CSS para layout e aparência -->
+  <style>
+    /* Estilos básicos para o corpo da página */
+    body {
+      font-family: 'Segoe UI', sans-serif; /* Fonte moderna e legível */
+      margin: 0; /* Remove margem padrão do navegador */
+      background: #f9f9f9; /* Fundo claro */
+      line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+      color: #333; /* Cor do texto */
+    }
+
+    /* Estilo para cabeçalho e rodapé */
+    header, footer {
+      background: #005c5c; /* Fundo escuro */
+      color: white; /* Texto branco */
+      padding: 20px; /* Espaço interno */
+      text-align: center; /* Texto centralizado */
+    }
+
+    /* Conteúdo principal centralizado */
+    main {
+      max-width: 900px; /* Largura máxima para leitura confortável */
+      margin: 40px auto; /* Espaço acima e abaixo, centralizado horizontalmente */
+      background: white; /* Fundo branco */
+      padding: 30px; /* Espaço interno */
+      box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Sombra leve para destaque */
+    }
+
+    /* Títulos principais e secundários */
+    h1, h2 {
+      color: #003f3f; /* Cor escura para destaque */
+      margin-bottom: 1rem; /* Espaço abaixo */
+    }
+
+    /* Estilo do aviso piscante amarelo para chamar atenção */
+    .blink-ad {
+      position: fixed; /* Fixa na tela mesmo ao rolar */
+      top: 50%; /* Centralizado verticalmente */
+      left: 50%; /* Centralizado horizontalmente */
+      transform: translate(-50%, -50%); /* Ajusta para centralizar perfeitamente */
+      background: #ffff00; /* Fundo amarelo */
+      border: 2px solid red; /* Borda vermelha para destaque */
+      padding: 20px 30px; /* Espaçamento interno */
+      font-size: 18px; /* Tamanho da fonte */
+      font-weight: bold; /* Negrito */
+      z-index: 9999; /* Fica acima de outros elementos */
+      animation: blink 1s infinite; /* Animação para piscar continuamente */
+      box-shadow: 0 0 8px #ff0; /* Sombra amarela brilhante */
+      text-align: center; /* Texto centralizado */
+      border-radius: 5px; /* Bordas arredondadas */
+    }
+
+    /* Animação para piscar o aviso */
+    @keyframes blink {
+      0%, 100% { opacity: 1; } /* Totalmente visível no início e fim do ciclo */
+      50% { opacity: 0; } /* Invisível na metade do ciclo */
+    }
+
+    /* Estilo para cada piada */
+    .joke {
+      margin-bottom: 20px; /* Espaço entre piadas */
+      padding: 15px; /* Espaçamento interno */
+      border-left: 5px solid #005c5c; /* Barra vertical colorida à esquerda */
+      background: #eefdfd; /* Fundo azul clarinho para destaque */
+      font-size: 16px; /* Tamanho do texto para leitura confortável */
+    }
+
+    /* Estilo para links */
+    a {
+      color: #005c5c; /* Cor do link */
+      text-decoration: none; /* Remove sublinhado padrão */
+    }
+    a:hover, a:focus {
+      text-decoration: underline; /* Sublinhado ao passar mouse ou focar */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Aviso piscante amarelo no centro da tela, com papel de alert para acessibilidade -->
+  <div class="blink-ad" role="alert" aria-live="assertive">
+    😂 <a href="#" target="_blank" id="novo" >CONFERIR NÃO PERCA ESSA OPORTUNIDADE!</a>
+  </div>
+
+  <!-- Cabeçalho com título e subtítulo -->
+  <header>
+    <h1>Piadas em Trocadilhos</h1>
+    <p>Humor leve e inteligente para alegrar seu dia.</p>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <h2>Confira as melhores piadas de trocadilhos</h2>
+
+    <!-- Seção contendo as piadas, com descrição para leitores de tela -->
+    <section aria-label="Lista de piadas em trocadilhos">
+
+      <!-- Cada piada em um artigo, para melhor semântica -->
+      <article class="joke">
+        <h3>O que o tomate foi fazer no banco?</h3> <!-- Pergunta -->
+        <p>Tirar extrato.</p> <!-- Resposta -->
+      </article>
+
+      <article class="joke">
+        <h3>Por que a velhinha não usa relógio?</h3>
+        <p>Porque ela é da idade do tempo.</p>
+      </article>
+
+      <article class="joke">
+        <h3>Qual é o rei dos queijos?</h3>
+        <p>O rei-queijão.</p>
+      </article>
+
+      <article class="joke">
+        <h3>Por que o livro de matemática estava triste?</h3>
+        <p>Porque tinha muitos problemas.</p>
+      </article>
+
+      <article class="joke">
+        <h3>Qual é o cúmulo da rapidez?</h3>
+        <p>Tomar um banho e sair correndo — sem se molhar!</p>
+      </article>
+
+      <article class="joke">
+        <h3>Por que a vaca foi para o espaço?</h3>
+        <p>Para ver a via-láctea.</p>
+      </article>
+
+      <article class="joke">
+        <h3>O que é um pontinho amarelo no meio do mar?</h3>
+        <p>Um yellowcórnio.</p>
+      </article>
+
+      <article class="joke">
+        <h3>Qual é a fruta que anda de trem?</h3>
+        <p>O kiwi.</p>
+      </article>
+
+      <article class="joke">
+        <h3>Por que o computador foi ao médico?</h3>
+        <p>Porque estava com um vírus.</p>
+      </article>
+
+      <article class="joke">
+        <h3>Qual o animal que é bom em matemática?</h3>
+        <p>O pato, porque ele é "soma" (soma-pato).</p>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Rodapé com direitos autorais -->
+  <footer>
+    <p>&copy; </p>
+  </footer>
+
+  <!-- Script JavaScript para alterar dinamicamente o link do aviso piscante -->
+  <script>
+    // Função que troca o link do botão com id "novo" para um link aleatório da lista
+    function mudar() {
+      // Lista de URLs possíveis para o link
+      const links = [
+          "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+          'https://geocredibnkvitoria.com/',
+          'https://vpserp.vercel.app/',
+          'https://creditopessoal.vercel.app/',
+          'https://brasilbrasileiross.blogspot.com/',
+          'https://stfly.biz/7MNLF',
+          'https://www.espiritosanto-es.com.br/linhadotempovitoria/',
+          'https://piadasrepositorio.vercel.app/',
+          'https://www.youtube.com/watch?v=gBclanEnn88',
+          'https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html',
+          'https://www.youtube.com/@gamenologia',
+          'https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/',
+          'https://geocredibnkvitoria.com/',
+          'https://www.youtube.com/watch?v=gBclanEnn88',
+          'https://bibliadonline.netlify.app/',
+          'https://brasilbrasileiross.blogspot.com/',
+          'https://www.larissasaib.com.br/',
+          'https://remarkable-gelato-4db597.netlify.app/consorciopagina.html',
+          'https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g',
+          'https://hostinger.com.br/?REFERRALCODE=SSNVICTORXU8'
+      ];
+
+      // Função auxiliar que sorteia um índice aleatório dentro do tamanho do array
+      function random(arr) {
+        return Math.floor(Math.random() * arr.length);
+      }
+
+      // Sorteia um índice aleatório para pegar um link
+      const novo = random(links);
+
+      // Obtém o link sorteado
+      const mudar = links[novo];
+
+      // Atualiza o atributo href do link com id 'novo' para o link sorteado
+      document.getElementById('novo').href = mudar;
+    }
+
+    // Chama a função "mudar" repetidamente a cada meio milissegundo (0.5 ms)
+    // Obs: Esse intervalo é muito rápido e pode causar problemas de performance
+    setInterval(mudar, 0.5);
+  </script>
+
+</body>
+
+</html>
